@@ -1,0 +1,159 @@
+body {
+  background-color: rgb(156, 156, 126) !important;
+  padding: 20px;
+  margin: 0;
+}
+h1,
+h2,
+p,
+ul,
+li {
+  font-family: sans-serif;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #84cc2a;
+  padding: 0;
+}
+ul.header li a {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 40px !important;
+  font-size: 26px;
+}
+a.nav_link:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.top_banner {
+  width: 100%;
+  height: auto;
+}
+.content {
+  background-color: #000000;
+  padding: 0;
+  text-decoration-color: white;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.active {
+  color: #ffffff;
+  text-shadow: 1px 1px #ffffff;
+  /* #0099FF */
+}
+
+.bg-green {
+  background-color: #84cc2a;
+}
+
+#border {
+  border: 1px solid black;
+}
+
+.footer {
+  background-color: #fff;
+  font-weight: inherit;
+  text-decoration: none;
+  padding: 10px;
+  color: #898787;
+  text-align: center;
+}
+
+.notfound {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
+
+th {
+  background-color: #84cc2a;
+}
+#table {
+  background-color: #fff;
+  color: black;
+}
+#line {
+  padding-top: 30px;
+}
+
+#update_btn {
+  background-color: #84cc2a;
+  color: #ffffff;
+  padding: 5px;
+  font-size: bold 12px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#delete_btn {
+  background-color: #f02828;
+  color: #ffffff;
+  padding: 5px;
+  font-size: bold 12px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+#input:focus {
+  outline: none !important;
+  border: 3px solid #2bff00;
+  box-shadow: 0 0 10px #719ece;
+}
+
+#button:hover {
+  font-size: bold 14px;
+  color: #000000;
+  background-color: #84cc2a;
+}
+
+/* @media screen and (max-width: 768px) {
+  .body {
+    padding: 0px;
+    margin: 0;
+  }
+
+  #line {
+    padding-top: 10px;
+  }
+
+  #line {
+    padding: 1px;
+    max-width: 2px;
+  }
+} */
+
+@media screen and (max-width: 750px) {
+  ul.header li a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 20px !important;
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  ul.header li a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    display: center;
+    padding-right: 5px !important;
+    font-size: 12px !important;
+  }
+}

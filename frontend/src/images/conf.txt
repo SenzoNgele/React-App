@@ -1,0 +1,13 @@
+Background color: #1f1f1f;
+
+Text color: #000000;
+
+Table background : #101010;
+
+Menu font color: #000000;
+
+Menu background: #84cc2a;
+
+Copyright font color: #898787; gray
+
+Width of the table = 1200px

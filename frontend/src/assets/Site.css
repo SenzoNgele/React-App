@@ -1,0 +1,49 @@
+body {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #70dcf7;
+    color: #ffffff;
+    align-content: center;
+    font-family: Verdana, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, sans-serif;
+    font-size: 8pt;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.left{
+    margin-left: 0%;
+    margin-right: auto;
+    text-align: center;
+}
+
+.right{
+    margin-left: auto;
+    margin-right: 0%;
+    text-align: center;
+}
+
+.sidesPadding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.secondTable{
+    color: #270303;
+    align-content: center;
+    font-family: Verdana, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, sans-serif;
+    font-size: 8pt;
+    width: 60%;
+    border: 0.5em solid #e61829
+}
+
+.active {
+    background-color: #0099FF;
+  }
