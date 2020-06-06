@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@hapi/joi": "^16.1.7",
-    "apollo-server-express": "^2.9.3",
+    "apollo-server-express": "^2.14.2",
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "graphql-server-express": "^1.4.1",
